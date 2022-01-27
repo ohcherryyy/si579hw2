@@ -1,0 +1,57 @@
+body{
+    box-sizing: border-box;
+    width: 100%;
+    overflow-x: hidden;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+a{
+    color: black;
+}
+header{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header h1 span{
+    color: #9AD4EA;
+}
+.test{
+    font-weight: bold;
+    animation: scaleEle 2s infinite;
+}
+@keyframes scaleEle{
+    from{
+        transform: scale(1.0);
+    }
+    to{
+        transform: scale(2.0);
+    }
+}
+#interests{
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.gallery img{
+    display: inline-block;
+    width: 45%;
+    margin-right: 1px;
+    margin-bottom: 1px;
+}
+footer{
+    font-size: 0.2rem;
+    color: #acacac;
+    padding-left: 1rem;
+}
